@@ -1,0 +1,112 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px 0px;
+    margin: 50px 50px;
+}
+
+
+.headings, .subheadings, .footerheadings, .bodycopy, .bodycopy2, .caption, .caption2, .legaltext, .logo, .boxicon, .arrow, .drop-cap {
+    grid-column: 2 / -1;
+    
+}
+.headings__text {
+    font-family: helvetica;
+    color: rgb(190, 190, 190);
+    font-size: 16px;
+    font-weight: 400;
+    border-top: 1.5px solid rgb(190, 190, 190);
+    padding-top: 5px;
+    margin-top: 0px;
+}
+
+.title {
+  margin-top: 0px;
+  font-family: helvetica, sans-serif;
+  font-size: 24px;
+}
+
+/*HEADINGS*/
+.headings__actual {
+  font-family: "Arimo", sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 16.8px;
+  letter-spacing: 2.1px;
+}
+
+/*SUBHEADINGS*/
+.subheadings__actual {
+  font-family: "Arimo", sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 12px;
+  line-height: 14.4px;
+  letter-spacing: 2.1px;
+}
+
+/*FOOTER HEADINGS*/
+.footerheadings__actual {
+  font-family: "Arimo", sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 10px;
+  line-height: 12.2px;
+  letter-spacing: 2.1px;
+}
+
+/*BODY COPY*/
+.bodycopy__actual {
+  font-family: "clarendon-text-pro", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+/*SECONDARY BODY COPY*/
+.bodycopy2__actual {
+  font-family: "clarendon-text-pro", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 18.2px;
+}
+
+/*ITALIC CAPTION*/
+.caption2__actual {
+  font-family: "clarendon-text-pro", serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 12px;
+  line-height: 14.4px;
+}
+
+/*LEGAL TEXT*/
+.legaltext__actual {
+  font-family: "clarendon-text-pro", serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 10px;
+  line-height: 12.4px;
+}
+
+/*LOGO WORDMARK*/
+.logo__img{
+  width: 150px;
+}
+.logo {
+  margin-top: 50px;
+}
+
+/*ICONS*/
+.icons__img--box {
+  width: 100px;
+}
+.arrow__img {
+  width: 100px;
+}
+.drop-cap__img {
+  width: 100px;
+}
