@@ -262,6 +262,7 @@
 
 .shop-headings {
   margin-top: 150px;
+  margin-bottom: 150px;
   position: relative;
   display: flex;
   justify-content: center;
@@ -278,4 +279,155 @@
   font-size: 14px;
   line-height: 16.8px;
   letter-spacing: 2.1px;
+}
+
+/*HOMEPAGE COMPONENTS*/
+.homepage-components {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-gap: 20px;
+}
+.homepage-components h2 {
+  grid-column: 1 / -1;
+}
+
+.components-home-heading__border {
+  width: 100%;
+}
+.components-home-heading__logo {
+  width: 170px;
+}
+.components-home-heading {
+  grid-column: 1 / -1;
+  margin-top: 50px;
+  margin-bottom: 60px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.components-home-heading__border {
+  position: absolute;
+}
+
+.components-gallery {
+  grid-column: 1 / span 6;
+  text-align: center;
+}
+
+.homepage-container {
+  grid-column: 7 / -1;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 20px;
+}
+.components-shop {
+  text-align: center;
+  grid-column: 1 / span 3;
+}
+.components-experiences {
+  text-align: center;
+  grid-column: 4 / span 3;
+}
+.components-ourstory {
+  text-align: center;
+  grid-column: 1 / -1;
+}
+
+.homepage-components__header {
+  font-family: "Arimo", sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 16.8px;
+  letter-spacing: 2.1px;
+}
+.homepage-components__caption {
+  font-family: "clarendon-text-pro", serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 12px;
+  line-height: 14.4px;
+}
+.homepage-components__body {
+  font-family: "clarendon-text-pro", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 18.2px;
+  text-align: left;
+}
+.homepage-components__button {
+  text-decoration: none;
+  color: black;
+  font-family: "Arimo", sans-serif;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 12.2px;
+  letter-spacing: 0.1em;
+}
+
+.components-gallery {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.components-gallery__border {
+  width: 100%;
+  position: absolute;
+  display: block;
+}
+.components-gallery__body-container {
+  padding: 90px;
+}
+
+.components-shop {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.components-shop__border {
+  width: 100%;
+  position: absolute;
+  display: block;
+}
+.components-shop__body-container {
+  padding: 20px;
+  width: 50%;
+}
+
+.components-experiences {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.components-experiences__border {
+  width: 100%;
+  position: absolute;
+  display: block;
+}
+.components-experiences__body-container {
+  padding: 20px;
+  width: 50%;
+}
+
+
+.components-ourstory {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.components-ourstory__border {
+  width: 100%;
+  position: absolute;
+  display: block;
+}
+.components-ourstory__body-container {
+  padding: 10px;
+  width: 50%;
 }
