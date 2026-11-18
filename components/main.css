@@ -517,3 +517,66 @@
   line-height: 14.4px;
   margin: 30px 0px;;
 }
+
+
+/*OUR STORY COMPONENTS*/
+.ourstory-components {
+  grid-column: 1 / -1;
+  margin-top: 50px;
+}
+.ourstory-components-container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-gap: 20px;
+}
+
+.ourstory-components-commitment {
+  grid-column: 1 / span 6;
+}
+.ourstory-components__titles {
+  font-family: "Arimo", sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 16.8px;
+  letter-spacing: 2.1px;
+}
+.ourstory-components__body {
+  font-family: "clarendon-text-pro", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.ourstory-components-approach {
+  grid-column: 7 / span 6;
+}
+
+.ourstory-components-whatwedo {
+  grid-column: 1 / span 6;
+}
+
+.ourstory-components-coulterplace {
+  grid-column: 7 / span 2;
+}
+.ourstory-components-coulterplace__image {
+  width: 35px;
+  margin-left: -5px;
+}
+.ourstory-components-coulterplace__caption {
+  font-family: "clarendon-text-pro", serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 12px;
+  line-height: 14.4px;
+}
+.ourstory-components__titles--barn {
+  font-family: "Arimo", sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 16.8px;
+  letter-spacing: 2.1px;
+  margin: 3px 0px 7px 0px;
+}
