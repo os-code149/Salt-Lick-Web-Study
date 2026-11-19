@@ -6,9 +6,8 @@
 }
 
 
-.headings, .subheadings, .footerheadings, .bodycopy, .bodycopy2, .caption, .caption2, .legaltext, .logo, .boxicon, .arrow, .drop-cap, .header, .footer, .button, .page-headings {
+.headings, .subheadings, .footerheadings, .bodycopy, .bodycopy2, .caption, .caption2, .legaltext, .logo, .boxicon, .arrow-icon, .drop-cap, .header, .footer, .button, .page-headings {
     grid-column: 2 / -1;
-    
 }
 .headings__text {
     font-family: helvetica;
@@ -579,4 +578,40 @@
   line-height: 16.8px;
   letter-spacing: 2.1px;
   margin: 3px 0px 7px 0px;
+}
+
+.ourstory-components-mission {
+  grid-column: 10 / span 3;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ourstory-components__border {
+  width: 100%;
+  display: block;
+  position: absolute;
+}
+.ourstory-components__body-container {
+  padding: 20px;
+  width: 45%;
+  text-align: center;
+}
+
+.ourstory-components-vision {
+  margin-top: 30px;
+  grid-column: 1 / span 3;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ourstory-components-values {
+  margin: 30px;
+  grid-column: 4 / span 3;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
