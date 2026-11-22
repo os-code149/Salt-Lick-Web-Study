@@ -6,7 +6,7 @@
 }
 
 
-.headings, .subheadings, .footerheadings, .bodycopy, .bodycopy2, .caption, .caption2, .legaltext, .logo, .boxicon, .arrow-icon, .drop-cap, .header, .footer, .button, .page-headings {
+.headings, .subheadings, .footerheadings, .bodycopy, .bodycopy2, .caption, .caption2, .legaltext, .logo-type, .boxicon, .arrow-icon, .drop-cap, .header, .footer, .button, .page-headings {
     grid-column: 2 / -1;
 }
 .headings__text {
@@ -25,6 +25,7 @@
   font-size: 24px;
 }
 
+/* TYPOGRAPHY ----------------------------------------*/
 /*HEADINGS*/
 .headings__actual {
   font-family: "Arimo", sans-serif;
@@ -92,10 +93,10 @@
 }
 
 /*LOGO WORDMARK*/
-.logo__img{
+.logo-type__img{
   width: 150px;
 }
-.logo {
+.logo-type {
   margin-top: 50px;
 }
 
@@ -154,7 +155,7 @@
   transition: .15s;
 }
 
-/*HEADER*/
+/* HEADER --------------------------------------------------*/
 .header {
   margin-top: 50px;
 }
@@ -193,7 +194,104 @@
   transition: opacity .15s;
 }
 
-/*PAGE HEADINGS*/
+/* FOOTER ---------------------------------------------- */
+.remake {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 20px;
+    /*padding: 45px 60px;*/
+}
+.logo {
+    grid-column: 1 / 7;
+    font-family: "Arimo", sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 16.8px;
+  letter-spacing: 2.1px;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    border: 15px double brown;
+    padding: 80px;
+    margin: 0px;
+}
+.remake__right {
+    grid-column: 7 / -1;;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 20px;
+}
+
+
+/*CONTACT*/
+.contact {
+    grid-column: 2 / 5;
+}
+.contact__title {
+  margin-top: 0px;
+  margin-bottom: 16px;
+  font-family: "Arimo", sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 10px;
+  line-height: 16.8px;
+  letter-spacing: 1px;
+}
+.contact__body {
+    font-family: "clarendon-text-pro", serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 12px;
+  line-height: 14.4px;
+    margin: 0px;
+    margin-bottom:3px;
+}
+
+/*COPYRIGHT*/
+.copyright {
+    grid-column: 2 / 5;
+    display: flex;
+    align-items: flex-end;
+}
+.copyright p {
+    font-family: "clarendon-text-pro", serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 10px;
+  line-height: 12.4px;
+    margin: 0px;
+}
+
+
+/*LOCATION*/
+.location {
+    grid-column: 5 / -1 ;
+    grid-row: 1 / span 1;
+}
+.location__title {
+    margin-top: 0px;
+    margin-bottom: 16px;
+    font-family: "Arimo", sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 10px;
+  line-height: 16.8px;
+  letter-spacing: 1px; 
+}
+.location__body {
+    font-family: "clarendon-text-pro", serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 12px;
+  line-height: 14.4px;
+    margin: 0px;
+}
+
+
+/*PAGE HEADINGS ----------------------------------------*/
 .page-headings {
   margin-top: 50px;
 }
@@ -280,7 +378,7 @@
   letter-spacing: 2.1px;
 }
 
-/*HOMEPAGE COMPONENTS*/
+/*HOMEPAGE COMPONENTS-----------------------------------------------*/
 .homepage-components {
   grid-column: 1 / -1;
   display: grid;
@@ -469,7 +567,7 @@
 }
 
 
-/*EXPERIENCES COMPONENTS*/
+/*EXPERIENCES COMPONENTS-----------------------------------------------*/
 .experiences-components {
   grid-column: 1 / -1;
   margin-top: 50px;
@@ -518,7 +616,7 @@
 }
 
 
-/*OUR STORY COMPONENTS*/
+/*OUR STORY COMPONENTS------------------------------------------------*/
 .ourstory-components {
   grid-column: 1 / -1;
   margin-top: 50px;
@@ -717,7 +815,7 @@
   width: 100%;
 }
 .ourstory-components__img--valley {
-  grid-column: 1 / span 3;
+  grid-column: span 3;
 }
 
 
@@ -726,5 +824,38 @@
   width: 100%;
 }
 .ourstory-components__img--field {
-  grid-column: 1 / span 3;
+  grid-column: span 3;
+}
+
+/* BODY TEXT */
+.ourstory-components__body {
+  grid-column: 5 / span 4;
+}
+.ourstory-components__body-text {
+  font-family: "clarendon-text-pro", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 24px;
+}
+  /* DROP CAP */
+.ourstory-components__body-dropcap {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  float: left;
+  padding: 50px 60px 50px 35px;
+}
+.dropcap-img {
+  width: 80px;
+  position: absolute;
+}
+.dropcap-text {
+  font-family: "Arimo", sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 12px;
+  line-height: 14.4px;
+  letter-spacing: 2.1px;
 }
