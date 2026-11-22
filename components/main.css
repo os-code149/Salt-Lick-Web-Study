@@ -618,53 +618,100 @@
 
 
 /* IMAGES */
-.ourstory-components__img--horses img{
-  width: 100%;
+.ourstory-components-img{
+  width: 90%;
+  padding: 30px;
+  display: block;
 }
 .ourstory-components__img--horses {
   grid-column: 1 / span 9;
-  padding: 31px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
 }
-
-.ourstory-components__img--barn img{
+.ourstory-components__img--horses-border {
+  position: absolute;
   width: 100%;
 }
+
+
+
 .ourstory-components__img--barn {
   grid-column: 1 / span 9;
-  padding: 31px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
 }
-
-.ourstory-components__img--horse-face img{
+.ourstory-components__img--barn-border {
+  position: absolute;
   width: 100%;
 }
+
+
+
 .ourstory-components__img--horse-face {
   grid-column: 1 / span 9;
-  padding: 31px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
 }
-
-.ourstory-components__img--hilltop img{
+.ourstory-components__img--horse-face-border {
+  position: absolute;
   width: 100%;
 }
+
+
+
 .ourstory-components__img--hilltop {
   grid-column: 1 / span 9;
-  padding: 31px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
 }
-
-.ourstory-components__img--boot img{
+.ourstory-components__img--hilltop-border {
+  position: absolute;
   width: 100%;
 }
+
+
+
 .ourstory-components__img--boot {
   grid-column: 1 / span 5;
-  padding: 31px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
 }
-
-.ourstory-components__img--saddle img{
+.ourstory-components__img--boot-border {
+  position: absolute;
   width: 100%;
 }
+
+
+
 .ourstory-components__img--saddle {
   grid-column: 6 / span 7;
-  padding: 31px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
 }
+.ourstory-components__img--saddle-border {
+  position: absolute;
+  width: 100%;
+}
+
+
 
 .ourstory-components__img--valley img{
   width: 100%;
@@ -672,6 +719,8 @@
 .ourstory-components__img--valley {
   grid-column: 1 / span 3;
 }
+
+
 
 .ourstory-components__img--field img{
   width: 100%;
